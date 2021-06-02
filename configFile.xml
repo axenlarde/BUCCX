@@ -1,0 +1,19 @@
+﻿<!--
+Overal configuration file
+-->
+
+<xml>
+	<config>
+		<!--Misc-->
+		<log4j>DEBUG</log4j><!--Logging level : ERROR,INFO,DEBUG-->
+		<csvsplitter>,</csvsplitter>
+		<allowedfiles>txt,csv</allowedfiles>
+		<sourcedirectory>Files</sourcedirectory>
+		<!--UCCX parameters-->
+		<uccxhost>10.160.128.34</uccxhost><!--IP of the UCCX server-->
+		<uccxport>8443</uccxport><!--Port to contact the UCCX server using REST-->
+		<uccxversion>105</uccxversion><!--Version of the UCCX server-->
+		<uccxusername>administrator</uccxusername><!--Username to contact the UCCX server-->
+		<uccxpassword>CCMCisco92</uccxpassword><!--Password !!!!Warning : keep it secret!!!!-->
+	</config>
+</xml>

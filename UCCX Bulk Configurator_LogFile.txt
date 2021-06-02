@@ -1,0 +1,840 @@
+22/04/2021 - 11:34:29 - [INFO] (com.alex.ubc.main.Main:30) - 
+
+22/04/2021 - 11:34:29 - [INFO] (com.alex.ubc.main.Main:31) - #### Entering application
+22/04/2021 - 11:34:29 - [INFO] (com.alex.ubc.main.Main:32) - ## Welcome to : UCCX Bulk Configurator version 1.0
+22/04/2021 - 11:34:29 - [INFO] (com.alex.ubc.main.Main:33) - ## Author : RATEL Alexandre : 2021
+22/04/2021 - 11:34:29 - [INFO] (com.alex.ubc.utils.UsefulMethod:87) - Detected JRE version : 1.8.0_202
+22/04/2021 - 11:34:29 - [INFO] (com.alex.ubc.utils.xMLReader:31) - File name = ./configFile.xml
+22/04/2021 - 11:34:29 - [INFO] (com.alex.ubc.utils.xMLReader:58) - Finished reading
+22/04/2021 - 11:34:29 - [INFO] (com.alex.ubc.utils.UsefulMethod:248) - Log level found in the configuration file : DEBUG
+22/04/2021 - 11:34:29 - [ERROR] (com.alex.ubc.main.Main:73) - 
+22/04/2021 - 11:34:29 - [INFO] (com.alex.ubc.main.Main:83) - Launching Main Class
+22/04/2021 - 11:35:16 - [INFO] (com.alex.ubc.main.Main:30) - 
+
+22/04/2021 - 11:35:16 - [INFO] (com.alex.ubc.main.Main:31) - #### Entering application
+22/04/2021 - 11:35:16 - [INFO] (com.alex.ubc.main.Main:32) - ## Welcome to : UCCX Bulk Configurator version 1.0
+22/04/2021 - 11:35:16 - [INFO] (com.alex.ubc.main.Main:33) - ## Author : RATEL Alexandre : 2021
+22/04/2021 - 11:35:16 - [INFO] (com.alex.ubc.utils.UsefulMethod:87) - Detected JRE version : 1.8.0_202
+22/04/2021 - 11:35:16 - [INFO] (com.alex.ubc.utils.xMLReader:31) - File name = ./configFile.xml
+22/04/2021 - 11:35:16 - [INFO] (com.alex.ubc.utils.xMLReader:58) - Finished reading
+22/04/2021 - 11:35:16 - [INFO] (com.alex.ubc.utils.UsefulMethod:248) - Log level found in the configuration file : DEBUG
+22/04/2021 - 11:35:16 - [ERROR] (com.alex.ubc.main.Main:73) - 
+22/04/2021 - 11:35:16 - [INFO] (com.alex.ubc.main.Main:83) - Launching Main Class
+22/04/2021 - 11:35:16 - [ERROR] (com.alex.ubc.utils.UsefulMethod:215) - 
+java.lang.NullPointerException
+	at com.alex.ubc.utils.UsefulMethod.getFilesToProcess(UsefulMethod.java:396)
+	at com.alex.ubc.action.Action.gooo(Action.java:31)
+	at com.alex.ubc.main.Main.<init>(Main.java:84)
+	at com.alex.ubc.main.Main.main(Main.java:101)
+22/04/2021 - 11:35:16 - [ERROR] (com.alex.ubc.utils.UsefulMethod:216) - Application failed to init : System.exit(0)
+22/04/2021 - 11:35:49 - [INFO] (com.alex.ubc.main.Main:30) - 
+
+22/04/2021 - 11:35:49 - [INFO] (com.alex.ubc.main.Main:31) - #### Entering application
+22/04/2021 - 11:35:49 - [INFO] (com.alex.ubc.main.Main:32) - ## Welcome to : UCCX Bulk Configurator version 1.0
+22/04/2021 - 11:35:49 - [INFO] (com.alex.ubc.main.Main:33) - ## Author : RATEL Alexandre : 2021
+22/04/2021 - 11:35:49 - [INFO] (com.alex.ubc.utils.UsefulMethod:87) - Detected JRE version : 1.8.0_202
+22/04/2021 - 11:35:49 - [INFO] (com.alex.ubc.utils.xMLReader:31) - File name = ./configFile.xml
+22/04/2021 - 11:35:49 - [INFO] (com.alex.ubc.utils.xMLReader:58) - Finished reading
+22/04/2021 - 11:35:49 - [INFO] (com.alex.ubc.utils.UsefulMethod:248) - Log level found in the configuration file : DEBUG
+22/04/2021 - 11:35:49 - [INFO] (com.alex.ubc.main.Main:83) - Launching Main Class
+22/04/2021 - 11:35:49 - [DEBUG] (com.alex.ubc.utils.UsefulMethod:390) - We look for the file to process
+22/04/2021 - 11:35:49 - [DEBUG] (com.alex.ubc.utils.UsefulMethod:401) - The following file has been added to the list : CSQ.txt
+22/04/2021 - 11:35:49 - [DEBUG] (com.alex.ubc.action.Action:39) - Processing file CSQ.txt
+22/04/2021 - 11:35:49 - [DEBUG] (com.alex.ubc.action.Action:51) - Found 1 line to process
+22/04/2021 - 11:35:49 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_RELCLI_Open_STAT
+22/04/2021 - 11:35:49 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8445/adminapi/csq 
+ <csq xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="csq.xsd">
+    <self href="" rel="" type="" />
+    <name>ARISTON_RELCLI_Open_STAT</name>
+    <queueType>VOICE</queueType>
+    <queueAlgorithm>FIFO</queueAlgorithm>
+    <autoWork>false</autoWork>
+    <wrapupTime>1</wrapupTime>
+    <resourcePoolType>SKILL_GROUP</resourcePoolType>
+    <serviceLevel>5</serviceLevel>
+    <serviceLevelPercentage>70</serviceLevelPercentage>
+</csq>
+22/04/2021 - 11:35:50 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 11:35:50 - [ERROR] (com.alex.ubc.rest.RESTGear:72) - ERROR While sending a rest request : https://10.160.128.34:8445/adminapi/csq
+22/04/2021 - 11:35:50 - [ERROR] (com.alex.ubc.rest.RESTGear:85) - ERROR While closing the connection : null
+22/04/2021 - 11:35:50 - [ERROR] (com.alex.ubc.action.Action:81) - Error : null
+java.lang.NullPointerException
+	at com.alex.ubc.rest.RESTGear.send(RESTGear.java:80)
+	at com.alex.ubc.action.Action.gooo(Action.java:76)
+	at com.alex.ubc.main.Main.<init>(Main.java:84)
+	at com.alex.ubc.main.Main.main(Main.java:101)
+22/04/2021 - 11:35:50 - [DEBUG] (com.alex.ubc.main.Main:85) - Task started !
+22/04/2021 - 12:13:26 - [INFO] (com.alex.ubc.main.Main:30) - 
+
+22/04/2021 - 12:13:26 - [INFO] (com.alex.ubc.main.Main:31) - #### Entering application
+22/04/2021 - 12:13:26 - [INFO] (com.alex.ubc.main.Main:32) - ## Welcome to : UCCX Bulk Configurator version 1.0
+22/04/2021 - 12:13:26 - [INFO] (com.alex.ubc.main.Main:33) - ## Author : RATEL Alexandre : 2021
+22/04/2021 - 12:13:26 - [INFO] (com.alex.ubc.utils.UsefulMethod:87) - Detected JRE version : 1.8.0_202
+22/04/2021 - 12:13:26 - [INFO] (com.alex.ubc.utils.xMLReader:31) - File name = ./configFile.xml
+22/04/2021 - 12:13:26 - [INFO] (com.alex.ubc.utils.xMLReader:58) - Finished reading
+22/04/2021 - 12:13:26 - [INFO] (com.alex.ubc.utils.UsefulMethod:248) - Log level found in the configuration file : DEBUG
+22/04/2021 - 12:13:26 - [INFO] (com.alex.ubc.main.Main:83) - Launching Main Class
+22/04/2021 - 12:13:26 - [DEBUG] (com.alex.ubc.utils.UsefulMethod:390) - We look for the file to process
+22/04/2021 - 12:13:26 - [DEBUG] (com.alex.ubc.utils.UsefulMethod:401) - The following file has been added to the list : CSQ.txt
+22/04/2021 - 12:13:26 - [DEBUG] (com.alex.ubc.action.Action:39) - Processing file CSQ.txt
+22/04/2021 - 12:13:26 - [DEBUG] (com.alex.ubc.action.Action:51) - Found 1 line to process
+22/04/2021 - 12:13:26 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_RELCLI_Open_STAT
+22/04/2021 - 12:13:26 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_RELCLI_Open_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 12:13:27 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 12:13:29 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/245
+22/04/2021 - 12:13:29 - [DEBUG] (com.alex.ubc.main.Main:85) - Task started !
+22/04/2021 - 12:15:50 - [INFO] (com.alex.ubc.main.Main:30) - 
+
+22/04/2021 - 12:15:50 - [INFO] (com.alex.ubc.main.Main:31) - #### Entering application
+22/04/2021 - 12:15:50 - [INFO] (com.alex.ubc.main.Main:32) - ## Welcome to : UCCX Bulk Configurator version 1.0
+22/04/2021 - 12:15:50 - [INFO] (com.alex.ubc.main.Main:33) - ## Author : RATEL Alexandre : 2021
+22/04/2021 - 12:15:50 - [INFO] (com.alex.ubc.utils.UsefulMethod:87) - Detected JRE version : 1.8.0_202
+22/04/2021 - 12:15:50 - [INFO] (com.alex.ubc.utils.xMLReader:31) - File name = ./configFile.xml
+22/04/2021 - 12:15:50 - [INFO] (com.alex.ubc.utils.xMLReader:58) - Finished reading
+22/04/2021 - 12:15:50 - [INFO] (com.alex.ubc.utils.UsefulMethod:248) - Log level found in the configuration file : DEBUG
+22/04/2021 - 12:15:50 - [INFO] (com.alex.ubc.main.Main:83) - Launching Main Class
+22/04/2021 - 12:15:50 - [DEBUG] (com.alex.ubc.utils.UsefulMethod:390) - We look for the file to process
+22/04/2021 - 12:15:50 - [DEBUG] (com.alex.ubc.utils.UsefulMethod:401) - The following file has been added to the list : CSQ.txt
+22/04/2021 - 12:15:50 - [DEBUG] (com.alex.ubc.action.Action:39) - Processing file CSQ.txt
+22/04/2021 - 12:15:50 - [DEBUG] (com.alex.ubc.action.Action:51) - Found 32 line to process
+22/04/2021 - 12:15:50 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_RELCLI_Open_STAT
+22/04/2021 - 12:15:50 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_RELCLI_Open_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 12:15:51 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 12:15:53 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/246
+22/04/2021 - 12:15:53 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_RELCLI_Closed_STAT
+22/04/2021 - 12:15:53 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_RELCLI_Closed_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 12:15:53 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 12:15:55 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/247
+22/04/2021 - 12:15:55 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_RELCLI_Choice1_STAT
+22/04/2021 - 12:15:55 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_RELCLI_Choice1_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 12:15:55 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 12:15:56 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/248
+22/04/2021 - 12:15:56 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_RELCLI_Choice2_STAT
+22/04/2021 - 12:15:56 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_RELCLI_Choice2_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 12:15:56 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 12:15:58 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/249
+22/04/2021 - 12:15:58 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_RELCLI_Choice3_STAT
+22/04/2021 - 12:15:58 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_RELCLI_Choice3_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 12:15:58 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 12:16:00 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/250
+22/04/2021 - 12:16:00 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_RELCLI_Choice4_STAT
+22/04/2021 - 12:16:00 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_RELCLI_Choice4_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 12:16:00 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 12:16:01 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/251
+22/04/2021 - 12:16:01 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_RELCLI_Choice5_STAT
+22/04/2021 - 12:16:01 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_RELCLI_Choice5_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 12:16:01 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 12:16:03 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/252
+22/04/2021 - 12:16:03 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_CCU_Open_STAT
+22/04/2021 - 12:16:03 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_CCU_Open_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 12:16:03 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 12:16:04 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/253
+22/04/2021 - 12:16:04 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_CCU_Closed_STAT
+22/04/2021 - 12:16:04 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_CCU_Closed_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 12:16:05 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 12:16:06 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/254
+22/04/2021 - 12:16:06 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_CCU_Choice1_STAT
+22/04/2021 - 12:16:06 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_CCU_Choice1_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 12:16:06 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 12:16:08 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/255
+22/04/2021 - 12:16:08 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_CCU_Choice2_STAT
+22/04/2021 - 12:16:08 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_CCU_Choice2_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 12:16:08 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 12:16:09 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/256
+22/04/2021 - 12:16:09 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_CCP_Open_STAT
+22/04/2021 - 12:16:09 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_CCP_Open_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 12:16:09 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 12:16:11 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/257
+22/04/2021 - 12:16:11 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_CCP_Closed_STAT
+22/04/2021 - 12:16:11 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_CCP_Closed_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 12:16:11 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 12:16:13 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/258
+22/04/2021 - 12:16:13 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_CCP_Choice1_STAT
+22/04/2021 - 12:16:13 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_CCP_Choice1_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 12:16:13 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 12:16:14 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/259
+22/04/2021 - 12:16:14 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_CCP_Choice2_STAT
+22/04/2021 - 12:16:14 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_CCP_Choice2_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 12:16:14 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 12:16:16 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/260
+22/04/2021 - 12:16:16 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_CCP_Choice3_STAT
+22/04/2021 - 12:16:16 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_CCP_Choice3_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 12:16:16 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 12:16:17 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/261
+22/04/2021 - 12:16:17 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_CCP_Choice4_STAT
+22/04/2021 - 12:16:17 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_CCP_Choice4_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 12:16:17 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 12:16:19 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/262
+22/04/2021 - 12:16:19 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_ADV_Open_STAT
+22/04/2021 - 12:16:19 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_ADV_Open_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 12:16:19 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 12:16:21 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/263
+22/04/2021 - 12:16:21 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_ADV_Closed_STAT
+22/04/2021 - 12:16:21 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_ADV_Closed_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 12:16:21 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 12:16:22 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/264
+22/04/2021 - 12:16:22 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_ADV_Choice1_STAT
+22/04/2021 - 12:16:22 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_ADV_Choice1_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 12:16:22 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 12:16:23 - [ERROR] (com.alex.ubc.rest.RESTGear:72) - ERROR While sending a rest request : Server returned HTTP response code: 412 for URL: https://10.160.128.34:8443/adminapi/csq
+22/04/2021 - 12:16:23 - [ERROR] (com.alex.ubc.rest.RESTGear:85) - ERROR While closing the connection : null
+22/04/2021 - 12:16:23 - [ERROR] (com.alex.ubc.action.Action:86) - Error : null
+java.lang.NullPointerException
+	at com.alex.ubc.rest.RESTGear.send(RESTGear.java:80)
+	at com.alex.ubc.action.Action.gooo(Action.java:81)
+	at com.alex.ubc.main.Main.<init>(Main.java:84)
+	at com.alex.ubc.main.Main.main(Main.java:101)
+22/04/2021 - 12:16:23 - [DEBUG] (com.alex.ubc.main.Main:85) - Done !
+22/04/2021 - 13:26:37 - [INFO] (com.alex.ubc.main.Main:30) - 
+
+22/04/2021 - 13:26:37 - [INFO] (com.alex.ubc.main.Main:31) - #### Entering application
+22/04/2021 - 13:26:37 - [INFO] (com.alex.ubc.main.Main:32) - ## Welcome to : UCCX Bulk Configurator version 1.0
+22/04/2021 - 13:26:37 - [INFO] (com.alex.ubc.main.Main:33) - ## Author : RATEL Alexandre : 2021
+22/04/2021 - 13:26:37 - [INFO] (com.alex.ubc.utils.UsefulMethod:87) - Detected JRE version : 1.8.0_202
+22/04/2021 - 13:26:37 - [INFO] (com.alex.ubc.utils.xMLReader:31) - File name = ./configFile.xml
+22/04/2021 - 13:26:37 - [INFO] (com.alex.ubc.utils.xMLReader:58) - Finished reading
+22/04/2021 - 13:26:37 - [INFO] (com.alex.ubc.utils.UsefulMethod:248) - Log level found in the configuration file : DEBUG
+22/04/2021 - 13:26:37 - [INFO] (com.alex.ubc.main.Main:83) - Launching Main Class
+22/04/2021 - 13:26:37 - [DEBUG] (com.alex.ubc.utils.UsefulMethod:390) - We look for the file to process
+22/04/2021 - 13:26:37 - [DEBUG] (com.alex.ubc.utils.UsefulMethod:401) - The following file has been added to the list : CSQ.txt
+22/04/2021 - 13:26:37 - [DEBUG] (com.alex.ubc.action.Action:39) - Processing file CSQ.txt
+22/04/2021 - 13:26:37 - [DEBUG] (com.alex.ubc.action.Action:51) - Found 13 line to process
+22/04/2021 - 13:26:37 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_ADV_Choice1_STAT
+22/04/2021 - 13:26:37 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_ADV_Choice1_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 13:26:39 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 13:26:40 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/265
+22/04/2021 - 13:26:40 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_ADV_Choice2_STAT
+22/04/2021 - 13:26:40 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_ADV_Choice2_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 13:26:40 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 13:26:42 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/266
+22/04/2021 - 13:26:42 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_ADV_Choice11_STAT
+22/04/2021 - 13:26:42 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_ADV_Choice11_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 13:26:42 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 13:26:43 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/267
+22/04/2021 - 13:26:43 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_ADV_Choice12_STAT
+22/04/2021 - 13:26:43 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_ADV_Choice12_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 13:26:43 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 13:26:45 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/268
+22/04/2021 - 13:26:45 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_ADV_Choice13_STAT
+22/04/2021 - 13:26:45 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_ADV_Choice13_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 13:26:45 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 13:26:46 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/269
+22/04/2021 - 13:26:46 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_ADV_ForwardATG_STAT
+22/04/2021 - 13:26:46 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_ADV_ForwardATG_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 13:26:46 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 13:26:48 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/270
+22/04/2021 - 13:26:48 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_ADV_ForwardStandard_STAT
+22/04/2021 - 13:26:48 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_ADV_ForwardStandard_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 13:26:48 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 13:26:49 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/271
+22/04/2021 - 13:26:49 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_ELCO_Open_STAT
+22/04/2021 - 13:26:49 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_ELCO_Open_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 13:26:49 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 13:26:51 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/272
+22/04/2021 - 13:26:51 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_ELCO_Closed_STAT
+22/04/2021 - 13:26:51 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_ELCO_Closed_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 13:26:51 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 13:26:52 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/273
+22/04/2021 - 13:26:52 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_ELCO_Choice1_STAT
+22/04/2021 - 13:26:52 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_ELCO_Choice1_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 13:26:52 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 13:26:54 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/274
+22/04/2021 - 13:26:54 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_ELCO_Choice2_STAT
+22/04/2021 - 13:26:54 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_ELCO_Choice2_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 13:26:54 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 13:26:55 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/275
+22/04/2021 - 13:26:55 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_ELCO_Choice3_STAT
+22/04/2021 - 13:26:55 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_ELCO_Choice3_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 13:26:55 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 13:26:57 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/276
+22/04/2021 - 13:26:57 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_PDR_STAT
+22/04/2021 - 13:26:57 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_PDR_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 13:26:57 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 13:26:58 - [DEBUG] (com.alex.ubc.rest.RESTGear:68) - Server reply : https://10.160.128.34:8443/adminapi/csq/277
+22/04/2021 - 13:26:58 - [DEBUG] (com.alex.ubc.main.Main:85) - Done !
+22/04/2021 - 17:03:01 - [INFO] (com.alex.ubc.main.Main:30) - 
+
+22/04/2021 - 17:03:01 - [INFO] (com.alex.ubc.main.Main:31) - #### Entering application
+22/04/2021 - 17:03:01 - [INFO] (com.alex.ubc.main.Main:32) - ## Welcome to : UCCX Bulk Configurator version 1.0
+22/04/2021 - 17:03:01 - [INFO] (com.alex.ubc.main.Main:33) - ## Author : RATEL Alexandre : 2021
+22/04/2021 - 17:03:01 - [INFO] (com.alex.ubc.utils.UsefulMethod:87) - Detected JRE version : 1.8.0_202
+22/04/2021 - 17:03:01 - [INFO] (com.alex.ubc.utils.xMLReader:31) - File name = ./configFile.xml
+22/04/2021 - 17:03:01 - [INFO] (com.alex.ubc.utils.xMLReader:58) - Finished reading
+22/04/2021 - 17:03:01 - [INFO] (com.alex.ubc.utils.UsefulMethod:248) - Log level found in the configuration file : DEBUG
+22/04/2021 - 17:03:01 - [INFO] (com.alex.ubc.main.Main:83) - Launching Main Class
+22/04/2021 - 17:03:01 - [DEBUG] (com.alex.ubc.utils.UsefulMethod:390) - We look for the file to process
+22/04/2021 - 17:03:01 - [DEBUG] (com.alex.ubc.utils.UsefulMethod:401) - The following file has been added to the list : CSQ.txt
+22/04/2021 - 17:03:01 - [DEBUG] (com.alex.ubc.action.Action:39) - Processing file CSQ.txt
+22/04/2021 - 17:03:01 - [DEBUG] (com.alex.ubc.action.Action:51) - Found 13 line to process
+22/04/2021 - 17:03:01 - [DEBUG] (com.alex.ubc.action.Action:62) - Injecting :ARISTON_ADV_Choice1_STAT
+22/04/2021 - 17:03:01 - [DEBUG] (com.alex.ubc.rest.RESTGear:39) - Sending POST request to https://10.160.128.34:8443/adminapi/csq 
+ <csq>
+	<name>ARISTON_ADV_Choice1_STAT</name>
+	<queueType>VOICE</queueType>
+	<routingType>VOICE</routingType>
+	<queueAlgorithm>FIFO</queueAlgorithm>
+	<autoWork>false</autoWork>
+	<wrapupTime>0</wrapupTime>
+	<resourcePoolType>SKILL_GROUP</resourcePoolType>
+	<serviceLevel>5</serviceLevel>
+	<serviceLevelPercentage>70</serviceLevelPercentage>
+	<poolSpecificInfo>
+		<skillGroup>
+			<selectionCriteria>Longest Available</selectionCriteria>
+		</skillGroup>
+	</poolSpecificInfo>
+</csq>
+22/04/2021 - 17:03:02 - [DEBUG] (com.alex.ubc.rest.RESTGear:60) - POST sent
+22/04/2021 - 17:03:02 - [ERROR] (com.alex.ubc.rest.RESTGear:72) - ERROR While sending a rest request : Server returned HTTP response code: 409 for URL: https://10.160.128.34:8443/adminapi/csq
+22/04/2021 - 17:03:02 - [ERROR] (com.alex.ubc.rest.RESTGear:85) - ERROR While closing the connection : null
+22/04/2021 - 17:03:02 - [ERROR] (com.alex.ubc.action.Action:86) - Error : null
+java.lang.NullPointerException
+	at com.alex.ubc.rest.RESTGear.send(RESTGear.java:80)
+	at com.alex.ubc.action.Action.gooo(Action.java:81)
+	at com.alex.ubc.main.Main.<init>(Main.java:84)
+	at com.alex.ubc.main.Main.main(Main.java:101)
+22/04/2021 - 17:03:02 - [DEBUG] (com.alex.ubc.main.Main:85) - Done !

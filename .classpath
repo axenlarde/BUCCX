@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/JAVAELILEX/UCCXBulkConfigurator/lib/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="C:/JAVAELILEX/UCCXBulkConfigurator/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/JAVAELILEX/UCCXBulkConfigurator/lib/commons-net-3.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/JAVAELILEX/UCCXBulkConfigurator/lib/fluent-hc-4.5.13.jar"/>
+	<classpathentry kind="lib" path="C:/JAVAELILEX/UCCXBulkConfigurator/lib/httpclient-4.5.13.jar"/>
+	<classpathentry kind="lib" path="C:/JAVAELILEX/UCCXBulkConfigurator/lib/httpclient-cache-4.5.13.jar"/>
+	<classpathentry kind="lib" path="C:/JAVAELILEX/UCCXBulkConfigurator/lib/httpclient-osgi-4.5.13.jar"/>
+	<classpathentry kind="lib" path="C:/JAVAELILEX/UCCXBulkConfigurator/lib/httpclient-win-4.5.13.jar"/>
+	<classpathentry kind="lib" path="C:/JAVAELILEX/UCCXBulkConfigurator/lib/httpcore-4.4.13.jar"/>
+	<classpathentry kind="lib" path="C:/JAVAELILEX/UCCXBulkConfigurator/lib/httpmime-4.5.13.jar"/>
+	<classpathentry kind="lib" path="C:/JAVAELILEX/UCCXBulkConfigurator/lib/jdom.jar"/>
+	<classpathentry kind="lib" path="C:/JAVAELILEX/UCCXBulkConfigurator/lib/jna-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/JAVAELILEX/UCCXBulkConfigurator/lib/jna-platform-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/JAVAELILEX/UCCXBulkConfigurator/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
